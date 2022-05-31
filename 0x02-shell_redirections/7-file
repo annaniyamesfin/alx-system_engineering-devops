@@ -1,2 +1,12 @@
 #!/bin/bash
-echo "Best School" > '\*\\'"Best School"\'\\*//$\?\*\*\*\*\*:)'
+echo ‘Best School’ > \\\*\\\\\‘\“Best\ School\“\\\’\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+#!/bin/bash
+find -mindepth 1 -type d | wc -l
+#!/bin/bash
+grep root /etc/passwd --after-context=3
+#!/bin/bash
+grep '^[[:alpha:]]' /etc/ssh/sshd_config
+#!/bin/bash
+find . -empty -printf "%f\n"
+#!/bin/bash
+tail -n +2 | sort | cut -f1 | uniq -c | sort -g -r | head -11 | tr -s " " | cut -d" " -f3
